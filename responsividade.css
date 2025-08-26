@@ -1,0 +1,92 @@
+/* ============================= */
+/* RESPONSIVIDADE PARA TABLET E MOBILE */
+/* ============================= */
+
+/* Tablets (até 1024px) */
+@media (max-width: 1024px) {
+    header {
+        width: 100%;
+        padding: 15px 30px;
+    }
+
+    .list {
+        width: 90%;
+    }
+
+    .product-img {
+        width: 50%;
+    }
+
+    .content {
+        width: 50%;
+        padding-right: 20px;
+    }
+
+    .product-name {
+        font-size: 3rem;
+    }
+
+    .description {
+        font-size: 1rem;
+        max-width: 90%;
+    }
+}
+
+/* Celulares (até 768px) */
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    header nav ul {
+        gap: 20px;
+    }
+
+    .list {
+        width: 100%;
+    }
+
+    .item {
+        flex-direction: column;
+        text-align: center;
+        padding: 20px;
+    }
+
+    .product-img {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .content {
+        width: 100%;
+        padding: 0;
+        align-items: center;
+    }
+
+    .product-name {
+        font-size: 2rem;
+    }
+
+    .description {
+        font-size: 0.95rem;
+        line-height: 1.4;
+    }
+
+    .btn {
+        padding: 10px 14px;
+        font-size: 0.9rem;
+    }
+
+    .arrows {
+        width: 100%;
+    }
+
+    .numbers {
+        font-size: 2rem;
+    }
+
+    .dot {
+        width: 25px;
+    }
+}
